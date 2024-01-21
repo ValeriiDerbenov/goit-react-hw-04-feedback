@@ -2,7 +2,6 @@ import { Box, Grid } from "./Statistics.styled"
 import PropTypes from 'prop-types';
 
 export const Statistics = ({title, good, neutral, bad, total, positivePercentage}) => {
-
 	return(
 		<Box>
 			<h2>{title}</h2>
